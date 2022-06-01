@@ -15,4 +15,4 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
       - name: Every time
-        run: ls
+        run: ls > test.txt
