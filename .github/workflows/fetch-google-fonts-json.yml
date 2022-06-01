@@ -1,10 +1,11 @@
-on:
-  schedule:
+#on:
+  #schedule:
     #  5:30 and 17:30 UTC
     #  - cron:  '30 5,17 * * *'
     # * is a special character in YAML so you have to quote this string
     # Every 10 minutes
-    - cron:  '*/10 * * * *'
+    #- cron:  '*/10 * * * *'
+on: workflow_dispatch
 
 jobs:
   test_schedule:
