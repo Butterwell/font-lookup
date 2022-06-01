@@ -1,7 +1,0 @@
-LICENSE
-README.md
-package.json
-src
-test.txt
-tsconfig.json
-yarn.lock
