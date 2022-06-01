@@ -18,7 +18,7 @@ jobs:
         env:
           GOOGLEFONTSAPI: ${{ secrets.GOOGLEFONTSAPI }}
         run: |
-          curl 'https://www.googleapis.com/webfonts/v1/webfonts?key=$GOOGLEFONTSAPI' > src/fonts.json
+          curl "https://www.googleapis.com/webfonts/v1/webfonts?key=${GOOGLEFONTSAPI}" > src/fonts.json
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Fetch fonts.json (Google Fonts json listing) from action
