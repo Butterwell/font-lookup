@@ -1,0 +1,27 @@
+{
+  "name": "@butterwell/ttf-lookup",
+  "version": "0.0.1",
+  "description": "Find truetype font file url matches from a string",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "font",
+    "search"
+  ],
+  "license": "MIT",
+  "author": "Christopher Michael Buck",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Butterwell/ttf-lookup.git"
+  },
+  "homepage": "https://github.io/Butterwell/ttf-lookup",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {}
+}
