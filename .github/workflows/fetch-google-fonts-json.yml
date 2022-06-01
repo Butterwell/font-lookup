@@ -14,8 +14,8 @@ jobs:
       - uses: actions/checkout@v2
         with:
           ref: ${{ github.head_ref }}
-      - name: Generate text.txt
-        run: ls > test.txt
+      - name: Remove text.txt
+        run: rm test.txt
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Generate test.txt from action
