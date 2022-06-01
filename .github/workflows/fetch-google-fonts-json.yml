@@ -14,8 +14,11 @@ jobs:
       - uses: actions/checkout@v2
         with:
           ref: ${{ github.head_ref }}
-      - name: Remove text.txt
-        run: rm test.txt
+      - shell: bash
+        env:
+          GOOGLEFONTSAPI: ${{ secrets.GOOGLEFONTSAPI }}
+        run: |
+          curl 'https://www.googleapis.com/webfonts/v1/webfonts?key=$GOOGLEFONTSAPI' > src/fonts.json
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Generate test.txt from action
+          commit_message: Fetch fonts.json (Google Fonts json listing) from action
