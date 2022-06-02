@@ -1,11 +1,11 @@
 {
   "name": "@butterwell/ttf-lookup",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Find truetype font file url matches from a string",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "keywords": [
-    "font",
+    "font-family",
     "search"
   ],
   "license": "MIT",
@@ -23,5 +23,6 @@
   "devDependencies": {
     "typescript": "^4.6.4"
   },
-  "dependencies": {}
+  "dependencies": {
+  }
 }

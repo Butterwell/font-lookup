@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@types/google.fonts@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@types/google.fonts/-/google.fonts-1.0.3.tgz#25fe7876875dc29b876b59d06e50d5d73f1d30ee"
+  integrity sha512-JJgKzTcZq0FNgJlZX6h+iLTZL3A+9ejJfGEnaS3ebLeTmY5tFhdcb3f6EuInJgjVbhKZAKN6A5H+0zFiHVmkYA==
+
 typescript@^4.6.4:
   version "4.7.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.7.2.tgz#1f9aa2ceb9af87cca227813b4310fff0b51593c4"
