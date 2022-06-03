@@ -1,6 +1,6 @@
 {
-  "name": "@butterwell/ttf-lookup",
-  "version": "0.0.2",
+  "name": "@butterwell/font-lookup",
+  "version": "0.0.1",
   "description": "Find truetype font file url matches from a string",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,9 +13,9 @@
   "readme": "README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Butterwell/ttf-lookup.git"
+    "url": "https://github.com/Butterwell/font-lookup.git"
   },
-  "homepage": "https://github.io/Butterwell/ttf-lookup",
+  "homepage": "https://github.io/Butterwell/font-lookup",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
@@ -23,6 +23,5 @@
   "devDependencies": {
     "typescript": "^4.6.4"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

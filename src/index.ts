@@ -25,3 +25,10 @@ export function findFamily(family: string) : WebfontFamily[] {
     return result
   }, [])
 }
+
+export function nameIncludes(includes: string) : WebfontFamily[] {
+  return items.reduce((previous: WebfontFamily[], current: WebfontFamily) => {
+    let result = current.family.includes(includes) ? [...previous, current] : previous
+    return result
+  }, [])
+}
